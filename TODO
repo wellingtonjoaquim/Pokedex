@@ -1,0 +1,34 @@
+TODO Criar as interfaces no miro
+TODO Criar o Banco de Dados no mysql e fazer as tabelas com as ligações necessarias (Fazer o WorkBanch)
+Listas das Tabelas 
+- Usuarios
+- Pokemons
+- Treinador
+- Tipos
+- Status
+
+BackEnd(Java)
+TODO Criar a conexão com o banco de dados apartir do Dao
+TODO Criar as Model em Java
+TODO Criar as interfaces graficas apartir do View
+TODO Criar os tratamentos de inserção apartir do Service
+
+BackEnd(Node)
+TODO Criar uma pasta separada para a API
+TODO Na raiz do projeto, criar os arquivos fundamentais do projeto
+Lista dos arquivos fundamentais
+- knexfiles.js (Conexão com o Banco de Dados)
+- Nodemon.json
+- Package-lock.json (Não alterar NADA)
+- Package.json (Instalar as dependencias)
+- node_modolus (Na onde as dependencias vai ficar)
+TODO Utilizar o comando npm run dev para baixar as dependências do projeto e criar a node_modules
+TODO Criar uma pasta onde ficara as rotas e o banco de dados (Nessa pasta criar o database)
+TODO Criar a pasta de database e dentro dela deve criar a pasta knex e dentro de knex devere ter a pasta migrations
+TODO Dentro de knex criar um arquivo index.ts (Aqui e onde ficara a conexão com o banco)
+TODO Na pasta migrations criar os arquivos utilizando o npm run migrate:make e quando todos os arquivos estiverem prontos iremos dar um npm run migrate para que assim seja criado as tabelas no mysql
+TODO Após criar as tabelas iremos criar as rotas
+TODO Criaremos uma pasta chamada routes (Onde criaremos os arquivos que conectarão as tabelas)
+TODO Criar um crud para cada rota 
+TODO Criar um arquivo index.ts dentro da pasta routes (Na onde ficara as rotas conectadas)
+TODO Criar um novo arquivo chamado server.ts (Chamar a API pela url)
